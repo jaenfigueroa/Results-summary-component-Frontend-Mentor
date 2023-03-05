@@ -1,6 +1,6 @@
 <div align="center" >
 
-# Results-summary-component
+# Results-summary-component 
 
 </div>
 
@@ -11,6 +11,7 @@
 <img src="https://img.shields.io/github/issues/jaenfigueroa/Quizz-Code">
 
 </div>
+
 
 <img src="./challenge.png">
 

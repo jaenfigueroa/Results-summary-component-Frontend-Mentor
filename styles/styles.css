@@ -1,0 +1,36 @@
+@import url(./colors.css);
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./main.css);
+
+/* //////////////////////////// */
+body::-webkit-scrollbar{
+  display: none;
+}
+.card{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 760px) {
+  body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .card{
+    flex-direction: row;
+    max-width: 600px;
+    min-height: 300px;
+    height: max-content;
+    box-shadow: 5px 5px 20px var(--lavander-2);
+    border-radius: 2rem;
+    overflow: hidden;
+  }
+}

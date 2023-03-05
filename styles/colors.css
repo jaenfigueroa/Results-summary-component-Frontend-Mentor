@@ -1,0 +1,21 @@
+:root{
+  --red: hsl(0, 100%, 67%);
+  --red-2: hsla(0, 100%, 67%, 0.06);
+  --yellow: hsl(39, 100%, 56%);
+  --yellow-2: hsla(39, 100%, 56%, 0.06);
+  --green: hsl(166, 100%, 37%);
+  --green-2: hsla(166, 100%, 37%, 0.06);
+  --blue: hsl(234, 85%, 45%);
+  --blue-2: hsla(234, 85%, 45%, 0.06);
+
+  /* Gradients */
+  --gradient: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  --gradient-2: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+  /* neutral */
+
+  --white: hsl(0, 0%, 100%);
+  --lavander-1: hsl(221, 100%, 96%);
+  --lavander-2: hsl(241, 100%, 89%);
+  --lavander-3: hsl(224, 30%, 27%);
+}

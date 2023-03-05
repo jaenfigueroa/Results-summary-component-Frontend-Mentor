@@ -1,0 +1,116 @@
+.card__block-2{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 500px;
+  justify-content: start;
+}
+
+.card__block-2 > h4{
+  font-weight: bold;
+  align-self: flex-start;
+  color: var(--lavander-3);
+}
+
+.card__block-2 > div{
+  border-radius: .5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card__block-2__item{
+  background: var(--white);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.2rem 2rem;
+  border-radius: .5rem;
+  --text: var(--red);
+  background: var(--red-2);
+}
+
+.card__block-2__item--yellow{
+  --text: var(--yellow);
+  background: var(--yellow-2);
+}
+
+.card__block-2__item--green{
+  --text: var(--green);
+  background: var(--green-2);
+}
+
+.card__block-2__item--blue{
+  --text: var(--blue);
+  background: var(--blue-2);
+}
+
+.card__block-2__item div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.card__block-2__mask{
+  width: 23px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__block-2__mask img{
+  width: 100%;
+}
+
+.card__block-2__item__title{
+  color: var(--text);
+  font-weight: bold;
+}
+.card__block-2__item__number{
+  color: #333544;
+  font-weight: bold;
+}
+
+.card__block-2__item h5{
+  display: flex;
+  gap: .5rem;
+}
+
+.card__block-2 article h5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__block-2 button{
+  padding: 1.5rem;
+  background: var(--lavander-3);
+  color: var(--lavander-1);
+  width: 100%;
+  border: none;
+  border-radius: 3rem;
+  font-weight: bold;
+  transition: 300ms;
+  cursor: pointer;
+}
+.card__block-2 button:hover{
+  background: var(--gradient);
+}
+
+@media (min-width: 760px) {
+  .card__block-2 > h4{
+    font-size: 1.8rem;
+  }
+  .card__block-2 > div{
+    gap: 1.5rem;
+  }
+  .card__block-2 button{
+    padding: 1rem;
+  }
+}
