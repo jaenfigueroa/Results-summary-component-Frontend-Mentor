@@ -12,7 +12,5 @@
 
 </div>
 
-<img src="./design/desktop-design.jpg">
-<img src="./design/mobile-design.jpg" width=700>
-<img src="./design/active-states.jpg" width=700>
+<img src="./challenge.png">
 
