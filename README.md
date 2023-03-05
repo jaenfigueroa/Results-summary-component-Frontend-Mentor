@@ -12,6 +12,5 @@
 
 </div>
 
-
-<img src="./challenge.png">
+<img src="./assets/challenge.png">
 
